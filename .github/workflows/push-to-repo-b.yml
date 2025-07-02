@@ -2,12 +2,11 @@
 name: Sync Subfolder to Repo B
 
 on:
-  #push:
-  #  branches:
-  #   - master
-  # paths:
-  #   - 'this/is/subfolder/**'
-  workflow_dispatch:
+  push:
+    branches:
+      - master
+    paths:
+      - 'this/is/subfolder/**'
 
 jobs:
   push_subfolder_to_repo_b:
