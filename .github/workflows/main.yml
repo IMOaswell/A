@@ -7,7 +7,9 @@ jobs:
     uses: IMOitself/subfoldersync-vibe/.github/workflows/start.yml@master
     with:
         source_repo: 'IMOitself/B'
+        source_branch: 'master'
         destination_repo: 'IMOitself/A'
+        destination_branch: 'master'
         subfolder_path: '.'
         username: IMOaswell
     secrets:
