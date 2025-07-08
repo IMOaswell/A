@@ -6,6 +6,7 @@ on:
       - master
     paths:
       - 'this/is/subfolder/**'
+  workflow_dispatch:
 
 jobs:
   push_subfolder_to_repo_b:
